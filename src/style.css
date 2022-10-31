@@ -16,15 +16,20 @@ body {
 }
 
 header {
+  background-color: lightblue;
+}
 
+header hr {
+  border-color: black;
+  margin: 8px 16px;
 }
 
 main {
-
+background-color: lightpink;
 }
 
 footer {
-
+  background-color: lightgreen;
 }
 
 footer p {

@@ -1,5 +1,7 @@
 :root {
-
+  --header-bg-color: lightblue;
+  --main-bg-color: lightpink;
+  --footer-bg-color: lightgreen;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -16,7 +18,7 @@ body {
 }
 
 header {
-  background-color: lightblue;
+  background-color: var(--header-bg-color);
 }
 
 header hr {
@@ -25,11 +27,11 @@ header hr {
 }
 
 main {
-background-color: lightpink;
+background-color: var(--main-bg-color);
 }
 
 footer {
-  background-color: lightgreen;
+  background-color: var(--footer-bg-color);
 }
 
 footer p {
